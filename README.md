@@ -107,6 +107,11 @@ Either way the output is `build/DigitalInvader.ino.hex`.
 
 ## Running in the emulator
 
+A ready-to-run `.hex` is attached to each
+[release](https://github.com/nanamitm/GC-Digital-Invader/releases), so the
+emulator can be fed one without installing a toolchain.
+
+
 ```bash
 cargo run --release -- /path/to/GC-Digital-Invader/build/DigitalInvader.ino.hex
 ```
@@ -132,3 +137,10 @@ eyeball the glyphs without hardware.
 - Original game design 1980 CASIO COMPUTER CO., LTD.
 - JavaScript version 2016-2020 Akebi (http://akebi.jp/)
 - Arduboy port: this repository
+
+## License
+
+The port's source code is released under the [MIT License](LICENSE). The game
+itself is the design of CASIO COMPUTER CO., LTD. (MG-880, 1980); this is an
+independent reimplementation for the Arduboy, written from the behaviour of
+Akebi's JavaScript version, and carries no rights to the original game.
